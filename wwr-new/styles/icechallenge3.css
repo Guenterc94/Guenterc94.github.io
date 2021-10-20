@@ -1,0 +1,85 @@
+main {
+    display: grid;
+    grid-template-rows: 200px 150px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
+
+img {
+    grid-column: 1;
+    grid-row: 1/5;
+    float: left;
+    max-width: 700px;
+    max-height: fit-content;
+    margin: none;
+}
+
+h1 {
+    font-size: 70px;
+    grid-row: 1;
+    grid-column: 2/-1;
+    text-align: center;
+    max-width: auto;
+  
+}
+
+p {
+    grid-row: 2;
+    grid-column: 2/-1;
+    font-size: 37px;
+    padding-top: 20px;
+    text-align: center;
+    max-width: auto;
+}
+
+.e {
+    grid-row: 3;
+    grid-column: 2/-1;
+    max-height: 50px;
+    font-size: 37px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 8px;
+}
+
+.n {
+    grid-row: 4;
+    grid-column: 2/-1; 
+    max-height: 50px;
+    font-size: 37px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 8px;
+}
+
+.opt {
+    grid-row: 5;
+    grid-column: 2/-1;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.opt input {
+    height: 10px;
+    width: 10px;
+}
+
+button {
+    grid-row: 6;
+    grid-column: 2/-1;
+    font-size: 37px;
+    color: white;
+    background-color: orangered;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 8px;
+}
+    
