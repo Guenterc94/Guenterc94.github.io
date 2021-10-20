@@ -5,7 +5,8 @@ main {
     gap: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
-    
+    max-width: fit-content;
+    min-width: fit-content;
 }
 
 img {
