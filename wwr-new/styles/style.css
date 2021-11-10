@@ -42,7 +42,6 @@ nav a {
 nav a:hover {
     background-color:  #289DAF;
     color: #264653;
-    text-decoration: underline;
 }
 
 header {
@@ -54,37 +53,14 @@ header {
 .home-title {
     font-family: "Permanent Marker", cursive;
     color: #289DAF;
-    font-size: 2em;
-    margin-top: 10px;
+    font-size: 4em;
+    margin-top: 20px;
 }
 
 h4{
     color: #289DAF;
-}
-
-footer {
-    background-color: #289DAF;
-    padding: 25px 50px;
-    padding-top: 15px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer h3 {
-    color: #264653;
-    text-decoration: none;
-}
-
-footer a {
-    color: #264653;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #264653;
-    text-decoration: underline;
+    font-size: 2em;
+    margin-top: -40px;
 }
 
 #content {
@@ -196,9 +172,10 @@ footer a:hover {
 
 .social img {
     padding-top: 15px;
+    text-decoration: none;
 }
 
-.card-img{
+.card-img {
     border: 10px solid black; 
     transition: transform .5s;
     box-shadow: 5px 5px 10px #289DAF;
@@ -236,6 +213,31 @@ footer a:hover {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #264653;
+}
+
+footer {
+    background-color: #289DAF;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: #264653;
+    text-decoration: none;
+}
+
+footer a {
+    color: #264653;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #264653;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
