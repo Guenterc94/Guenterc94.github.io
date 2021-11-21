@@ -8,8 +8,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #264653  ;
   --secondary-color: #289DAF ;
-  --accent1-color: #FFFFFF;
-  --accent2-color: #B0D2FD;
+  --accent1-color: goldenrod;
+  --accent2-color: cornflowerblue;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Permanent Marker", cursive;
@@ -21,10 +21,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #264653; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #264653; /* paragraph text on a colored background */ 
   --paragraph-background-color: #289DAF;
-  --nav-link-color: #FFFFFF;
-  --nav-background-color: #B0D2FD ;
-  --nav-hover-link-color: #FFFFFF;
-  --nav-hover-background-color: #289DAF;
+  --nav-link-color: black;
+  --nav-background-color: white;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #264653;
 }
 
 
