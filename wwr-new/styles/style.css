@@ -2,7 +2,7 @@
 
 body{
     font-family: "Permanent Marker", cursive;
-    background-color: #B0D2FD;
+    background-color: cornflowerblue;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -25,6 +25,12 @@ main section img {
     display: grid;
     grid-template-columns: repeat( 10 , 1fr );
 }
+
+.rates-grid{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+}
+
 
 nav {
     display: flex;
@@ -55,6 +61,15 @@ header {
     color: #289DAF;
     font-size: 4em;
     margin-top: 20px;
+}
+
+.rates-title{
+    font-family: "Permanent Marker", cursive;
+    color: #264653;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    text-align: center;
 }
 
 h4{
@@ -130,7 +145,6 @@ h4{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-
 }
 
 .join:hover {
@@ -194,6 +208,81 @@ h4{
     margin: 200px 0;
 }
 
+.buy{
+    height: 30px;
+    font-family: "Permanent Marker", cursive;;
+    text-align: center;
+    justify-self: center;
+    background-color: goldenrod;
+    color: #264653;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.buy:hover{
+    background-color: #289DAF;
+    color: #264653;
+}
+
+.grand-canyon, .salmon-river, .desolation{
+    display: grid;
+    grid-template-rows: 1fr 1fr 300px 1fr;
+    margin-top: 200px;
+    font-family: "Nunito", sans-serif;
+    color: #264653;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 10px #264653;
+}
+
+.mountains{
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #264653;
+}
+
+.wide-river{
+    width: 100%;
+    height: 600px;
+}
+
+
+.rates-grid2{
+    display: grid;
+    grid-template-columns: repeat( 11, 1fr );
+}
+
+.grand-canyon{
+    grid-column: 1/4;
+    background-color: white;
+    height: 800px;
+    width: auto;
+    margin-right: -50px;
+    border: 10px solid black; 
+}
+
+.salmon-river{
+    grid-column: 5/8;
+    background-color: white;
+    height: 800px;
+    width: auto;
+    margin-left: -25px;
+    margin-right: -25px;
+    border: 10px solid black; 
+}
+
+.desolation{
+    grid-column: 9/12;
+    background-color: white;
+    height: 800px;
+    width: auto;
+    margin-left: -50px;
+    border: 10px solid black; 
+}
+
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
@@ -209,12 +298,6 @@ h4{
     grid-row: 2/3;
 }
 
-.mountains{
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #264653;
-}
-
 footer {
     background-color: #289DAF;
     padding: 25px 50px;
@@ -228,6 +311,10 @@ footer {
 footer h3 {
     color: #264653;
     text-decoration: none;
+}
+
+#rage{
+    color: orangered;
 }
 
 footer a {
