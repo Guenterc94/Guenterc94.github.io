@@ -3,9 +3,11 @@ main{
     flex-direction: column; */
     background-color: lightseagreen;
     max-width: 100%;
+    max-height: 100%;
 }
 
 .container {
+    max-height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
@@ -21,7 +23,7 @@ header{
 
 .unchained{
     grid-column: 2/3;
-    width: 900px;
+    max-width: 900px;
     height: 900px;
     justify-self: center;
     margin-left: 400px;
