@@ -1,11 +1,13 @@
 main{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color: lightseagreen;
     max-width: 100%;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     position: relative;
     text-align: center;
 }
@@ -21,7 +23,7 @@ header{
     height: 900px;
     justify-self: center;
     margin-left: 400px;
-    margin-right: 800px;
+    margin-right: 1000px;
     border-radius: 50%;
     opacity: 60%;
     border: solid cornsilk 5px;
@@ -33,7 +35,7 @@ h1{
     text-align: center;
     position: absolute;
     top: 50%;
-    left: 51%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border: solid cornsilk;
 } 
