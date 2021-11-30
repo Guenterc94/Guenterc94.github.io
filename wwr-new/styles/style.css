@@ -8,6 +8,11 @@ body{
     padding: 0;
 }
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 h2{
     margin: 0;
 }
@@ -78,10 +83,6 @@ h4{
     margin-top: -40px;
 }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 
 #logo_link {
     padding-top: 5px;
