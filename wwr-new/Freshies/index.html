@@ -29,18 +29,20 @@
             <img class="first" src="styles-freshies/drew-farwell-9vkJPfh9Anw-unsplash.jpg" alt="small trout">
             <h2>Our Mission</h2>
             <p>The purpose of the website is to educate novice anglers on how to properly fish for Trout.</p>
-            <h2>What:</h2>
-            <p> Trout are a chiefly freshwater fish of the salmon family, found in both Eurasia and North America and highly valued as food and game.</p>
-            <h2>How:</h2>
-            <p>Trout fishing requires knowledge of the environment as well as using the correct equipment.</p>
-            <h2>When</h2>
-            <p>Most lakes and reservoirs as well as most larger rivers are open to fishing year round in Idaho, but some smaller lakes and most streams are open from May 24 through November 30.</p>
+            <p></p>
+            <button class="accordion">What:</button>
+            <div class="panel">
+                <p>Trout are a chiefly freshwater fish of the salmon family, found in both Eurasia and North America and highly valued as food and game.</p>
+            </div>
+            <button class="accordion">How:</button>
+            <div class="panel">
+                <p>Trout fishing requires knowledge of the environment as well as using the correct equipment.</p>
+            </div>
+            <button class="accordion">When</button>
+            <div class="panel">
+                <p>Most lakes and reservoirs as well as most larger rivers are open to fishing year round in Idaho, but some smaller lakes and most streams are open from May 24 through November 30.</p>
+            </div>
             <img class="second" src="styles-freshies/brandon-enPHTN3OPRw-unsplash.jpg" alt="river trout">
-
-
-
-
-
         </main>
         <footer>
             <h3 id="freshies">Freshies &copy; 2021 - Guenter Castrillo</h3>
@@ -59,5 +61,21 @@
             </div>
         </footer>
     </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 </html>

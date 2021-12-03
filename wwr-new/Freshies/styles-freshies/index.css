@@ -64,15 +64,47 @@ h1{
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    grid-column: 2;
+    background-color: #E7C24F;
+    color: #381D2A;
+    cursor: pointer;
+    padding: 18px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #381D2A;
+    color: #E7C24F;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    grid-column: 2;
+    padding: 0 18px;
+    background-color: #5D590F;
+    display: none;
+    overflow: hidden;
+  }
+
 .first, .second{
-    margin-left: -50px;
     width: 1100px;
     height: 400px;
-    grid-column: 2/4;
-    border: solid black 5px;
-    box-shadow: 5px 5px 10px darkslategrey;
+    grid-column: 2;
 }
 
+.second{
+    padding-top: 100px;
+}
 
 .rr{
     height: 300px;
