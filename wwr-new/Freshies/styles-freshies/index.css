@@ -67,10 +67,6 @@ h1{
     font-size: 150px;
 }
 
-h2{
-    color: white;
-}
-
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -112,6 +108,7 @@ h2{
     padding-left: 150px;
 }
 h2{
+    color: white;
     font-size: 100px;
     font-family: 'Amatic SC', cursive;
     padding-top: 50px;
