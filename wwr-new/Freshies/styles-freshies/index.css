@@ -27,6 +27,24 @@ nav a:hover {
     color: #E7C24F;
 }
 
+#Home_page{
+    background-image: url("drew-farwell-9vkJPfh9Anw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 85%;
+}
+
+#equipment{
+background-image: url("jarrett-mills-E2L2pMppR1U-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#contact_us{
+    background-image: url("jack-charles-X-6NnyS_uFE-unsplash.jpg");
+    background-size: contain;
+}
+
 header {
     background-color: #E7C24F;
     display: grid;
@@ -44,15 +62,16 @@ header {
 }
 
 h1{
-    color: black;
+    color: white;
     text-align: center;
     font-size: 150px;
 }
 
-/* homepage */
+h2{
+    color: white;
+}
 
 .home-grid{
-    
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     text-align: center;
@@ -60,7 +79,7 @@ h1{
 
 .home-grid2{
     display: grid;
-    grid-template-columns: 200px 400px 1fr 200px;
+    grid-template-columns: 200px 1fr 200px;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -69,7 +88,7 @@ h1{
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
     grid-column: 2;
-    background-color: #E7C24F;
+    background-color: #381D2A;
     color: #381D2A;
     cursor: pointer;
     padding: 18px;
@@ -91,61 +110,46 @@ h1{
   .panel {
     grid-column: 2;
     padding: 0 18px;
-    background-color: #5D590F;
+    background-color: #381D2A;
     display: none;
     overflow: hidden;
   }
 
-.first, .second{
-    width: 1100px;
-    height: 400px;
-    grid-column: 2;
-}
-
-.second{
-    padding-top: 100px;
-}
-
-.rr{
-    height: 300px;
-    width: 400px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-
-}
-
 #rr{
     margin-top: -85px;
     margin-left: 20px;
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
 }
 
-.fl{
-    height: 300px;
-    width: 400px;
-    grid-column: 2/3;
-    grid-row: 3/4;
+#rrp{
+    margin-top: -70px;
+    margin-left: 50px;
+    
 }
 
 #fl{
     margin-left: 20px;
-    margin-top: -85px;
-    grid-column: 3/4;
+    margin-top: -70px;
+    grid-column: 2/3;
     grid-row: 3/4;
 }
 
-.second{
-    margin-top: 50px;
+#flp{
+    margin-top: -70px;
+    margin-left: 50px;
 }
 
 h2{
+    font-size: 100px;
     font-family: 'Amatic SC', cursive;
     padding-top: 50px;
     grid-column: 2/3;
 }
 
 p{
+    font-size: 50px;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     grid-column: 2/3;
 }
@@ -179,7 +183,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Equipment */
+
 
 
 
