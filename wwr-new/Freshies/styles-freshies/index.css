@@ -77,13 +77,6 @@ h2{
     text-align: center;
 }
 
-.home-grid2{
-    display: grid;
-    grid-template-columns: 200px 1fr 200px;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
@@ -100,13 +93,11 @@ h2{
     transition: 0.4s;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
     background-color: #381D2A;
     color: #E7C24F;
   }
   
-  /* Style the accordion panel. Note: hidden by default */
   .panel {
     grid-column: 2;
     padding: 0 18px;
@@ -115,31 +106,11 @@ h2{
     overflow: hidden;
   }
 
-#rr{
-    margin-top: -85px;
+#rr, #rrp, #fl, #flp {
     margin-left: 20px;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    padding-right: 150px;
+    padding-left: 150px;
 }
-
-#rrp{
-    margin-top: -70px;
-    margin-left: 50px;
-    
-}
-
-#fl{
-    margin-left: 20px;
-    margin-top: -70px;
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-#flp{
-    margin-top: -70px;
-    margin-left: 50px;
-}
-
 h2{
     font-size: 100px;
     font-family: 'Amatic SC', cursive;
@@ -148,7 +119,7 @@ h2{
 }
 
 p{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     grid-column: 2/3;
