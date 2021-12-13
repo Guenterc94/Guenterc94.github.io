@@ -12,7 +12,10 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-             
+ 
+a {
+    color: blueviolet;
+}
 
 nav a {
     text-align: center;
