@@ -42,7 +42,7 @@ background-size: cover;
 
 #contact_us{
     background-image: url("jack-charles-X-6NnyS_uFE-unsplash.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 header {
